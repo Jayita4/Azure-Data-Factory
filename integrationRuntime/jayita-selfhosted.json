@@ -1,0 +1,6 @@
+{
+	"name": "jayita-selfhosted",
+	"properties": {
+		"type": "SelfHosted"
+	}
+}

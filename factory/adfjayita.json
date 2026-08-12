@@ -1,0 +1,15 @@
+{
+	"name": "adfjayita",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4987e029-9bc5-4ea7-aa2b-ff0dcdb3627f",
+		"tenantId": "6c0fcf20-e0ae-4686-9a8f-9b67a3c3dc36"
+	}
+}

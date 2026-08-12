@@ -1,0 +1,25 @@
+{
+	"name": "selected filestrigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "onlyselectedfiles",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 30,
+				"startTime": "2026-08-06T16:27:00",
+				"endTime": "2026-08-07T16:40:00",
+				"timeZone": "Central Standard Time"
+			}
+		}
+	}
+}
