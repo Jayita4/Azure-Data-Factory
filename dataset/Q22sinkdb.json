@@ -1,0 +1,16 @@
+{
+	"name": "Q22sinkdb",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "cust_sql_ls",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "saleslt",
+			"table": "customerclone"
+		}
+	}
+}
