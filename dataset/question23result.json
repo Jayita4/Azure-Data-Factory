@@ -1,0 +1,19 @@
+{
+	"name": "question23result",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "jayitacsv_ls",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "Question21",
+				"fileSystem": "landing"
+			}
+		},
+		"schema": {}
+	}
+}
